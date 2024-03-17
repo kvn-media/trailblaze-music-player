@@ -10,7 +10,7 @@ import apiClient from "../../spotify";
 
 export default function Sidebar() {
   const [image, setImage] = useState(
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdLAY3C19kL0nV2bI_plU3_YFCtra0dpsYkg&usqp=CAU"
+    "https://i.pinimg.com/736x/4b/e8/b9/4be8b9842a4bfe0ff89b2a0d6d3a2cae.jpg"
   );
   useEffect(() => {
     apiClient.get("me").then((response) => {
